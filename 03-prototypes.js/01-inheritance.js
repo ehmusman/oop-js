@@ -9,7 +9,7 @@
 // and we are assuming that implementation of this method is exactly same accross the both classes. so we dont want to repeat in this implementaion. because if there is a bug in future we dont have to change and fix it at multiple locations. we just have to fix it at same place. 
 //so here inheritance comes to rescue us. 
 
-// for implementation of inheritance we'll maje a class named and                      
+// for implementation of inheritance we'll make a class named and                      
 //                                   Shape
 //
 //                               Circle   Square
