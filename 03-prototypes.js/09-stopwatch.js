@@ -15,25 +15,16 @@ function Stopwatch() {
     Object.defineProperty(this, "startTime", {
         get: function () {
             return startTime
-        },
-        set: function (value) {
-            startTime = value
         }
     })
     Object.defineProperty(this, "endTime", {
         get: function () {
             return endTime
-        },
-        set: function (value) {
-            endTime = value
         }
     })
     Object.defineProperty(this, "running", {
         get: function () {
             return running
-        },
-        set: function (value) {
-            running = value
         }
     })
 }
